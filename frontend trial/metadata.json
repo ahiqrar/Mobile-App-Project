@@ -1,0 +1,9 @@
+
+{
+  "name": "SimpleWords Banquet",
+  "description": "A premium online banquet booking platform for users, hall owners, and administrators.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
