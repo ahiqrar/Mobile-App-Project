@@ -2,8 +2,9 @@ const mongoose = require("mongoose");
 
 const connectDB = async () => {
   try {
+    console.log("Attempting to connect to:", process.env.MONGO_URI);
     await mongoose.connect(process.env.MONGO_URI, {
-      family: 4, 
+      family: 4,
     });
     console.log("MongoDB Connected");
   } catch (error) {
