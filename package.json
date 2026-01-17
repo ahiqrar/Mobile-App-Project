@@ -1,0 +1,9 @@
+{
+    "name": "banquet-project-root",
+    "version": "1.0.0",
+    "description": "Root control for Banquet App",
+    "scripts": {
+        "backend": "cd banquet-backend && npm run dev",
+        "frontend": "cd banquet-booking-app && npm run web"
+    }
+}
